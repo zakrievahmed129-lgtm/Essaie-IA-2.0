@@ -5,7 +5,7 @@ const wikiBtn = document.getElementById("wikiBtn");
 
 // Constantes pour l'API Gemini
 const API_MODEL = "gemini-2.5-flash-preview-09-2025";
-const API_KEY = "AIzaSyClKKh70MBW18z7uxzgoTKLs-eiXAvqd3I"; // L'environnement Canvas fournira cette clé au runtime
+const API_KEY = "AIzaSyCDuEbX3MX9rWaV0HdHWEqn9efqV-fHx0Y"; // L'environnement Canvas fournira cette clé au runtime
 
 // Fonction utilitaire pour fetch avec backoff exponentiel (gestion des erreurs/limites de taux)
 async function exponentialBackoffFetch(url, options, maxRetries = 5) {
@@ -178,4 +178,5 @@ userInput.addEventListener("keypress", (e) => {
 window.onload = () => {
     addMessage("🤖 Bonjour ! Je suis ton assistant de chat IA propulsé par Gemini. Pose-moi une question ou utilise /help.", "ai-message");
 };
+
 
