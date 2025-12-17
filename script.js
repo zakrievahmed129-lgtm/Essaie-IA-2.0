@@ -178,3 +178,4 @@ userInput.addEventListener("keypress", (e) => {
 window.onload = () => {
     addMessage("🤖 Bonjour ! Je suis ton assistant de chat IA propulsé par Gemini. Pose-moi une question ou utilise /help.", "ai-message");
 };
+
